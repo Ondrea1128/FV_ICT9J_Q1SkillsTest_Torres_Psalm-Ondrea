@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles_Q1SkillsTest.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Skills Test</title>
+</head>
+
+<body>
+    <header>
+<img src="obmc-logo-removebg-preview.png" alt="School Logo" width="200" height="200" class="center">
+
+        <h1>OBMC Robotics Club Application Form</h1>
+        
+        <p>Welcome! Please fill out this form to apply for our school's Robotics Club.</p>
+
+        <p>Full name: <input type="text" name="fullname"></p>
+
+        <p>Email Address: <input type="text" name="email"></p>
+
+
+        <select name="grade">
+            <option value="" disabled selected>Grade Level:</option>
+            <option value="grade7">Grade 7</option>
+            <option value="grade8">Grade 8</option>
+            <option value="grade9">Grade 9</option>  
+            <option value="grade10">Grade 10</option>  
+        </select>
+
+        <p>Gender:
+            
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label></p>
+
+
+        <h3>What are your skills?</h3>
+        <input type="checkbox" id="coding" name="skills" value="Coding">
+        <label for="coding">Coding</label>
+
+        <input type="checkbox" id="Design" name="skills" value="Design">
+        <label for="Design">Design</label>
+
+        <input type="checkbox" id="electronics" name="skills" value="Electronics">
+        <label for="electronics">Electronics</label>
+
+        <p>Tell us why you would like to join:</p>
+
+
+        <textarea name="reason" rows="6" cols="50"></textarea>
+
+        <h4>Top Robotic Activities We Offer:</h4>
+<div style="display: flex; justify-content: center;">
+    <ul style="list-style-type: disc !important; margin: 0; padding-left: 20px; text-align: left;">
+        <li>Line Following Robots</li>
+        <li>Obstacle Avoidance Programming</li>
+        <li>Light Following Robot</li>
+    </ul>
+</div>
+<p>Helpful Links:</p>
+<div style="display: flex; justify-content: center;">
+    <ol style="margin: 0; padding-left: 20px; text-align: left;">
+        <li><a href="https://coursera.org" target="_blank">Basic of Robotics</a></li>
+        <li><a href="https://sciencebuddies.org" target="_blank">25+ Robotics Projects, Lessons, and Activities</a></li>
+    </ol>
+</div>
+    
+<input type="submit" value="Submit application">
+    </header>
+
+</body>
+</html>
